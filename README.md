@@ -26,8 +26,11 @@ Unfortunately, changing the training dates did not change the model in any meani
 Even though the classification report after tuning the model showed a modest improvement in accuracy, the strategy backtest confirmed that the strategy's returns fit more closely to actual returns. Therefore, this strategy might be a good predictor of future actual returns.
 
 <em>Original SVM Strategy Backtest</em>
+
 ![Original SVM](/Original_actual_strategy_cumreturns.png)
+
 <em>Tuned SVM Strategy Backtest</em>
+
 ![Tuned SVM](/Tuned_actual_strategy_cumreturns.png)
 
 ## SVM model vs. Random Forest model
