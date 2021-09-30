@@ -42,4 +42,5 @@ RF's accuracy was lower than SVM's at 52%. However, RF model did a much better j
 The backtest results show that the Random Forest performed worse than the original SVM model.
 
 <em>SVM and RF Strategies Backtest</em>
+
 ![SVM-RF Comparison](/Comparison_actual_SVM_RF_cumreturns.png)
