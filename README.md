@@ -24,3 +24,16 @@ Unfortunately, changing the training dates did not change the model in any meani
 ### Conclusion
 
 Even though the classification report after tuning the model showed a modest improvement in accuracy, the strategy backtest confirmed that the strategy's returns fit more closely to actual returns. Therefore, this strategy might be a good predictor of future actual returns.
+
+![Original SVM](/Original_actual_strategy_cumreturns.png)
+![Tuned SVM](/Tuned_actual_strategy_cumreturns.png)
+
+## SVM model vs. Random Forest model
+
+The Random Forest (RF) performed worse than the original (and tuned) SVM models. 
+
+RF's accuracy was lower than SVM's at 52%. However, RF model did a much better job at predicting unprofitable trades (Signal = -1) compared to the SVM's model. The RF model predicted the signal correctly 35% of the time (recall) with a 44% precision (SVM model did not make any predicions for Signal = -1)
+
+The backtest results show that the Random Forest performed worse than the original SVM model.
+
+![SVM-RF Comparison](/Comparison_actual_SVM_RF_cumreturns.png)
