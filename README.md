@@ -20,3 +20,7 @@ Beginning: 2016-04-02
 Ending: 2017-04-02
 
 Unfortunately, changing the training dates did not change the model in any meaningful way
+
+### Conclusion
+
+Even though the classification report after tuning the model showed a modest improvement in accuracy, the strategy backtest confirmed that the strategy's returns fit more closely to actual returns. Therefore, this strategy might be a good predictor of future actual returns.
